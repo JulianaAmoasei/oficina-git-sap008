@@ -5,6 +5,8 @@ function soma(num) {
   return num + num;
 }
 
+
+
 console.log(banana, numero);
 console.log(soma(4)) //8
 
@@ -26,3 +28,9 @@ console.log(soma(4)) //8
   // `git add .`
   // `git commit -m "primeiro commit"`
   // `git push origin master`
+
+// "Entao quando a gente clona não precisa conectar o local na nuvem? Posso fazer os 3 passos direto já?"
+  // fork + clone não precisa de `git init`
+  // `git clone git@github.com:JulianaAmoasei/oficina-git-sap008.git`
+  // o repositório já vem com a pasta oculta .git configurada
+  // aí é só fazer os 3 passos
