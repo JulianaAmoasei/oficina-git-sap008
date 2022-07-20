@@ -1,10 +1,12 @@
 const banana = "banana";
 const numero = 55;
 
+function soma(num) {
+  return num + num;
+}
+
 console.log(banana, numero);
-
-
-
+console.log(soma(4)) //8
 
 // primeiros passos
 
@@ -22,3 +24,5 @@ console.log(banana, numero);
 // sincronizar o local com o remoto
   // TRÊS COMANDOS PRINCIPAIS DO GIT (por enquanto)
   // `git add .`
+  // `git commit -m "primeiro commit"`
+  // `git push origin master`
