@@ -5,7 +5,9 @@ function soma(num) {
   return num + num;
 }
 
-
+function multiplica(num) {
+  return num * 2
+}
 
 console.log(banana, numero);
 console.log(soma(4)) //8
